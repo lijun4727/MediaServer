@@ -1,0 +1,4 @@
+src/server/Debug
+third_party/boost_1_74_0
+.vscode
+src/server/build
