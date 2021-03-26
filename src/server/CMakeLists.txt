@@ -1,3 +1,7 @@
+#webrtc native书开发中，通过作者docker镜像下载安卓webrtc失败
+#运行以下命令使容器支持翻墙
+# sudo docker run --env HTTP_PROXY=http://127.0.0.1:58591 --env HTTPS_PROXY=http://127.0.0.1:58591 --env ALL_PROXY=socks5://127.0.0.1:51837 --net host --rm -v /home/lion/Desktop/webrtc_android:/webrtc -it piasy/webrtc-build
+
 #boost库安装(保证提前安装python2)
 #./bootstrap.sh --with-python=python2
 #sudo ./b2 install
